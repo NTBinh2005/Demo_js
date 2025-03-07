@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.image-gallery {
+    display: inline-block; /* Use flexbox to align images in a row */
+    justify-content: center; /* Center the images */
+    margin-bottom: 20px;
+
+}
+
+.clickable-image {
+    width: 30%; /* Set width to 300px */
+    height: 50%; /* Set height to 500px */
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.clickable-image:hover {
+    border-color: #007BFF;
+}
+
+.image-box {
+    width: 300px; /* Match the width of the images */
+    height: 500px; /* Match the height of the images */
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
